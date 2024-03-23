@@ -2,7 +2,9 @@
 This repository includes input data and R script to reproduce the analysis reported in Dugo et al, XXX, 2024.
 
 ## Instructions
-To run the analysis download the repository in your favourite folder. Then change the path of the input data at the beginning of the R script.
+To run the analysis download the repository in your favourite folder. Change the inputPath variable at the beginning of the NeoTRIP_DetermaIO_analyses.R script with the path of your folder.
+Run the script in R/RStudio.
+
 The following R libraries are required to run the script:
 
 * ggplot2
