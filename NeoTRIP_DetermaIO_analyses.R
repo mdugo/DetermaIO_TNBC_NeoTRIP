@@ -13,8 +13,8 @@ library(rcartocolor)
 library(epiR)
 library(openxlsx)
 
-# indicate your path here
-inputPath<-"~/Desktop/hsr_bioinfo/projects/NeoTRIP/rnaseq/posters_papers/manuscript_baseline_IOscore/rebuttal/github/data"
+# put your path here
+inputPath<-""
 outputPath<-gsub("\\/data", "\\/results", inputPath)
 dir.create(path = outputPath)
 
